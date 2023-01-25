@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {grid-area: header;}
+        #menu {grid-area: menu;}
+        article {grid-area: article;}
+        #links {grid-area: links;}
+        footer {grid-area: footer;}
+        .grid-container {
+            display: grid;
+            grid-template-areas: 
+                'header header header header header header'
+                'menu menu article article links links'
+                'footer footer footer footer footer footer'
+        }
+
+
+        header, 
+        #menu,
+        article,
+        #links,
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 25px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+    <div class="grid-container">
+        <header>Header
+            <nav>
+                Navigation
+            </nav>
+        </header>
+        <aside id="menu">
+            Menu
+        </aside>
+        <article>
+            <section>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </section>
+
+        </article>
+        <aside id="links">
+            links
+        </aside>
+        <footer>
+            Footer
+        </footer>
+    </div>
+
+    
+</html>
