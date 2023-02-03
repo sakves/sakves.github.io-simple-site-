@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {height: 100%;}
+        body, h1, h2, p {
+            font-family: 'Roboto', sans-serif;
+        }
+        body {background-color:  #ebf5fb;}
+
+        .container {
+
+            position:relative;
+            width: 80%;
+            height: 1000px;
+            border-radius: 7px;
+            margin:100px 10px 100px 140px;
+            background-color: white;
+        }
+
+        .bigger {
+            font-size: 34px;
+        }
+
+        #topbar {
+
+            position:fixed;
+            font-size: 130%;
+            width: 100%;
+            height: 60px;
+            background-color: #566573;
+            text-align: center;
+            top: 0px;
+            left: 0px
+        }
+        
+        #image1 {
+            position: absolute;
+            top:170px;
+            left:190px;
+        }
+
+        #icon1 {
+            position: absolute;
+            background-color: antiquewhite;
+            padding:10px;
+            border-radius: 20px;
+            top:530px;
+            left:16%;
+        }
+        #icon2 {
+            position: absolute;
+            background-color: antiquewhite;
+            padding:10px;
+            border-radius: 20px;
+            top:530px;
+            left:43%;
+        }
+
+        #icon3 {
+            position: absolute;
+            background-color: antiquewhite;
+            padding:10px;
+            border-radius: 20px;
+            top:530px;
+            left:69%;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        #text1 {
+            position: absolute;
+            max-width: 800px;
+            top: 140px;
+            left: 580px;
+            right: 190px;
+            font-size: 20px;
+        }
+        ul.list1 {
+            position: absolute;
+            top: 850px;
+            left: 43%;
+            font-size: 14px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container"> </div>
+    <div id="image1">
+        <img src="thumbsup.png" alt="An image" style="width:270px">
+    </div>
+    <div id="text1">
+        <p class="bigger">Sakari Vesa</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+    <ul class="list1">
+        <p><b>Lisätietoja</b></p>
+        <li>Evästeet</li>
+        <li>Arvostelut</li>
+        <li>Usein kysyttyä</li>
+        <li>Harvemmin kysyttyä</li>
+        <li>yms</li>
+    </ul>
+    <div id="icon1">
+        <img src="phone-icon.png" alt="An image" style="width:200px">
+    </div>
+    <div id="icon2">
+        <img src="mail-icon.jpg" alt="An image" style="width:200px">
+    </div>
+    <div id="icon3">
+        <img src="instagram-icon.jpg" alt="An image" style="width:200px">
+    </div>
+    <div id="topbar">
+        <p><b>TOPBAR</b></p>
+    </div>
+</body>
+</html>
